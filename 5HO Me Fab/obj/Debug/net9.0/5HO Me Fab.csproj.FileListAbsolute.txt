@@ -1,0 +1,97 @@
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\appsettings.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\5HO Me Fab.staticwebassets.runtime.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\5HO Me Fab.staticwebassets.endpoints.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\5HO Me Fab.exe
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\5HO Me Fab.deps.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\5HO Me Fab.runtimeconfig.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\5HO Me Fab.dll
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\bin\Debug\net9.0\5HO Me Fab.pdb
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.AssemblyInfoInputs.cache
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.AssemblyInfo.cs
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.csproj.CoreCompileInputs.cache
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.RazorAssemblyInfo.cache
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.RazorAssemblyInfo.cs
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\scopedcss\bundle\5HO Me Fab.styles.css
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\scopedcss\projectbundle\5HO Me Fab.bundle.scp.css
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\26rm1uj8v3-b9sayid5wm.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\bsljal6sc5-61n19gt1b8.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\dbevqwlznu-xtxxf3hu2r.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\r21o8h31qu-bqjiyaj88i.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\x17npks1vd-c2jlpeoesf.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\csoor0nlfj-erw9l3u2r3.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\ses56qxehl-aexeepp0ev.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\oaxexvv5kh-d7shbmvgxk.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\tjojyn5mjo-ausgxo2sd3.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\y8y85aqnat-k8d9w2qqmf.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\1p63gl7ozw-cosvhxvwiu.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\70cesmcyt1-ub07r2b239.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\rzl5cg72zz-fvhpjtyr6v.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\f82cx470kj-b7pk76d08c.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\ffpjetbymf-fsbi9cje9m.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\n22y9i92n2-rzd6atqjts.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\4p79jbwnit-ee0r1s7dh0.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\9h8qoqlguq-dxx9fxp4il.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\0km1uwvd2t-jd9uben2k1.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\ag2v1hukb0-khv3u5hwcm.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\gu5yb8zyti-r4e9w2rdcm.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\dehglaxmb7-lcd1t2u6c8.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\1zzwqt8i0g-c2oey78nd0.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\kfzxkzf4kp-tdbxkamptv.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\onxmt5yi42-j5mq2jizvt.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\ww9f9s5tju-06098lyss8.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\2avso73nf0-nvvlpmu67g.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\2qmh3dmg2y-s35ty4nyc5.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\973d40slks-pj5nd1wqec.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\cy8wydtkuo-46ein0sx1k.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\m4yv8moq7y-v0zj4ognzu.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\1erp8gnq1o-37tfw0ft22.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\dpsby093k3-hrwsygsryq.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\ovvqpv2y1k-pk9g2wxc8p.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\owc9d92n3u-ft3s53vfgj.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\cltumnz6lx-6cfz1n2cew.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\00rjdcr95q-6pdc2jztkx.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\manf5dzsed-493y06b0oq.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\3jjjak56bn-iovd86k7lj.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\eufs4njbcy-vr1egmr9el.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\klhxyxx0ak-kbrnm935zg.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\juk5htzy7p-jj8uyg4cgr.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\5rzl1wy48j-y7v9cxd14o.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\zl49b0iaxv-notf2xhcfb.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\rlmat75msi-h1s4sie4z3.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\e7z6n8gnma-63fj8s7r0e.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\cje2ofd0t4-0j3bgjxly4.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\zmw46xrvd0-47otxtyo56.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\ufyl5xxa33-4v8eqarkd7.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\vkv6uxf2jm-356vix0kms.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\t3akxl9b4v-83jwlth58m.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\as3ump9h0r-mrlpezrjn3.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\ti4493ovy5-lzl9nlhx6b.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\jaupmi59yo-ag7o75518u.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\93ndzcx4xj-x0q3zqp4vz.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\2a2lyc5n6z-0i3buxo5is.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\ydhykffo0j-o1o13a6vjx.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\gnu4x6kmu5-ttgo8qnofa.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\3tlq5nqfom-2z0ns9nrw6.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\jdrshu1hvl-muycvpuwrr.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\fdbw9ywz6s-87fc7y1x7t.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\j6fylwx14o-mlv21k5csn.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\jirlk6hve7-jxflcwkdte.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\compressed\96fi3cpule-jxflcwkdte.gz
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.dll
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\refint\5HO Me Fab.dll
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.pdb
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\5HO Me Fab.genruntimeconfig.cache
+C:\Users\Drenn\source\repos\CSC_210\Assignments\5HO Me Fab\5HO Me Fab\obj\Debug\net9.0\ref\5HO Me Fab.dll
