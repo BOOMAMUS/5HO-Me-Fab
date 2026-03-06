@@ -8,9 +8,9 @@ namespace _5HO_Me_Fab.Models
 {
     public class UserInputModel
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public string FavoriteColor { get; set; }
-        public string Hobby { get; set; }
+        public string? Name { get; set; }
+        public string? TankCust1 { get; set; }
+        public string? TankCust2 { get; set; }
+        public string? TankCust3 { get; set; }
     }
 }

@@ -22,7 +22,7 @@ namespace _5HO_Me_Fab.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View("Index.cshtml", model);
+                return View("Index", model);
             }
 
             return RedirectToAction("Result", model);
@@ -30,7 +30,7 @@ namespace _5HO_Me_Fab.Controllers
 
         public IActionResult Result(UserInputModel model)
         {
-            return View("Result.cshtml", model);
+            return View("~/Views/Home/Result.cshtml", model);
         }
     }
 }
