@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _5HO_Me_Fab
 build_property.RootNamespace = _5HO_Me_Fab
-build_property.ProjectDir = C:\Users\Drenn\source\repos\CSC_210\5HO Me Fab\5HO Me Fab\
+build_property.ProjectDir = C:\Users\Drenn\Source\Repos\5HO-Me-Fab\5HO Me Fab\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Drenn\source\repos\CSC_210\5HO Me Fab\5HO Me Fab
+build_property.MSBuildProjectDirectory = C:\Users\Drenn\Source\Repos\5HO-Me-Fab\5HO Me Fab
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Pages/Error.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Pages/Index.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Pages/Privacy.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Pages/_ViewImports.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Pages/_ViewStart.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy (2).cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy (2).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkgKDIpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy (3).cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy (3).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkgKDMpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy (4).cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy (4).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkgKDQpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy (5).cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy (5).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkgKDUpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy (6).cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy (6).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkgKDYpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy (7).cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy (7).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkgKDcpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy (8).cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy (8).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkgKDgpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy (9).cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy (9).cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkgKDkpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index - Copy.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index - Copy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Index.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Views/Home/Result.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Views/Home/Result.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Drenn/source/repos/CSC_210/5HO Me Fab/5HO Me Fab/Pages/Shared/_Layout.cshtml]
+[C:/Users/Drenn/Source/Repos/5HO-Me-Fab/5HO Me Fab/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wfahaimwtj
