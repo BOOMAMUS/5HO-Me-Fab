@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Drenn\\Source\\Repos\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj": {}
+    "C:\\Users\\Drenn\\source\\repos\\CSC_210\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Drenn\\Source\\Repos\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj": {
+    "C:\\Users\\Drenn\\source\\repos\\CSC_210\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Drenn\\Source\\Repos\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj",
+        "projectUniqueName": "C:\\Users\\Drenn\\source\\repos\\CSC_210\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj",
         "projectName": "5HO Me Fab",
-        "projectPath": "C:\\Users\\Drenn\\Source\\Repos\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj",
+        "projectPath": "C:\\Users\\Drenn\\source\\repos\\CSC_210\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj",
         "packagesPath": "C:\\Users\\Drenn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Drenn\\Source\\Repos\\5HO-Me-Fab\\5HO Me Fab\\obj\\",
+        "outputPath": "C:\\Users\\Drenn\\source\\repos\\CSC_210\\5HO-Me-Fab\\5HO Me Fab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
