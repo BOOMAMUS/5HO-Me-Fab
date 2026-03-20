@@ -14,12 +14,15 @@ namespace _5HO_Me_Fab.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View("~/Views/Home/Index.cshtml");
+            return View(new UserInputModel());
+            //return View("~/Views/Home/Index.cshtml");
         }
 
         [HttpPost]
         public IActionResult Index(UserInputModel model)
         {
+            model.TankOptions = new UserInputModel().TankOptions;
+
             if (!ModelState.IsValid)
             {
                 return View("Index", model);

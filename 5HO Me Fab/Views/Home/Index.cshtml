@@ -1,4 +1,5 @@
 ﻿@model _5HO_Me_Fab.Models.UserInputModel
+@using Microsoft.AspNetCore.Mvc.Rendering
 <link rel="stylesheet" href="~/css/site.css" />
 
 <div class="text-center">
@@ -10,31 +11,24 @@
         <div class="col-md-6">
 
             <form method="post">
-
-                <div class="form-group mb-3">
-                    <label>Name:</label>
-                    <input asp-for="Name" class="form-control" />
-                </div>
-
                 <div class="form-group mb-3">
                     <label>Tank Customization 1:</label>
-                    <input asp-for="TankCust1" class="form-control" />
+                    <select asp-for="TankCust1" asp-items="@(new SelectList(Model.TankOptions))" class="form-control"></select>
                 </div>
 
                 <div class="form-group mb-3">
                     <label>Tank Customization 2:</label>
-                    <input asp-for="TankCust2" class="form-control" />
+                    <select asp-for="TankCust2" asp-items="@(new SelectList(Model.TankOptions))" class="form-control"></select>
                 </div>
 
                 <div class="form-group mb-3">
                     <label>Tank Customization 3:</label>
-                    <input asp-for="TankCust3" class="form-control" />
+                    <select asp-for="TankCust3" asp-items="@(new SelectList(Model.TankOptions))" class="form-control"></select>
                 </div>
 
-                <div class="text-center">
+                <div class="text-center mt-3">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
-
             </form>
 
         </div>
