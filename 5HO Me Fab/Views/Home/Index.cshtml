@@ -1,36 +1,96 @@
 ﻿@model _5HO_Me_Fab.Models.UserInputModel
-@using Microsoft.AspNetCore.Mvc.Rendering
-<link rel="stylesheet" href="~/css/site.css" />
-
-<div class="text-center">
-    <h1 class="display-4">5HO Me Fab Tank Customization</h1>
-</div>
 
 <div class="container mt-4">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
+    <h2 class="mb-4 text-center">Tank Customization Form</h2>
 
-            <form method="post">
-                <div class="form-group mb-3">
-                    <label>Tank Customization 1:</label>
-                    <select asp-for="TankCust1" asp-items="@(new SelectList(Model.TankOptions))" class="form-control"></select>
+    <form asp-action="Index" method="post">
+        <div class="row">
+
+            <!-- LEFT COLUMN: Tank + Nozzle Options -->
+            <div class="col-md-6">
+
+                <h4 class="mb-3">Tank Customizations</h4>
+
+                <div class="mb-3">
+                    <label class="form-label">Tank Customization 1</label>
+                    <select asp-for="TankCust1" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                        <option value="">Select Option</option>
+                    </select>
                 </div>
 
-                <div class="form-group mb-3">
-                    <label>Tank Customization 2:</label>
-                    <select asp-for="TankCust2" asp-items="@(new SelectList(Model.TankOptions))" class="form-control"></select>
+                <div class="mb-3">
+                    <label class="form-label">Tank Customization 2</label>
+                    <select asp-for="TankCust2" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                        <option value="">Select Option</option>
+                    </select>
                 </div>
 
-                <div class="form-group mb-3">
-                    <label>Tank Customization 3:</label>
-                    <select asp-for="TankCust3" asp-items="@(new SelectList(Model.TankOptions))" class="form-control"></select>
+                <div class="mb-3">
+                    <label class="form-label">Tank Customization 3</label>
+                    <select asp-for="TankCust3" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                        <option value="">Select Option</option>
+                    </select>
                 </div>
 
-                <div class="text-center mt-3">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </form>
+                <h4 class="mb-3">Nozzle Customizations</h4>
 
+                <div class="mb-3">
+                    <label class="form-label">Nozzle Customization 1</label>
+                    <select class="form-select">
+                        <option>Select Option</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Nozzle Customization 2</label>
+                    <select class="form-select">
+                        <option>Select Option</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Nozzle Customization 3</label>
+                    <select class="form-select">
+                        <option>Select Option</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN: Tank Image + Pricing -->
+            <div class="col-md-6">
+
+                <div class="border p-3 mb-4 text-center bg-light" style="height: 300px;">
+                    <p class="mt-5">Image of tank with numbered arrows pointing to specific parts.</p>
+                </div>
+
+                <h4 class="mb-3">Pricing</h4>
+
+                <div class="mb-3">
+                    <label class="form-label">Price of individual component</label>
+                    <input type="text" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Labor Hours</label>
+                    <input type="text" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Tax</label>
+                    <input type="text" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Total</label>
+                    <input type="text" class="form-control" />
+                </div>
+
+            </div>
         </div>
-    </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary px-4">Submit</button>
+        </div>
+    </form>
 </div>
