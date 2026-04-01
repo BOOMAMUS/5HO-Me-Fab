@@ -1,96 +1,97 @@
 ﻿@model _5HO_Me_Fab.Models.UserInputModel
+@using Microsoft.AspNetCore.Mvc.Rendering
 
-<div class="container mt-4">
-    <h2 class="mb-4 text-center">Tank Customization Form</h2>
+<form asp-action="Index" method="post">
+    <div class="row">
 
-    <form asp-action="Index" method="post">
-        <div class="row">
+        <div class="col-md-6 left-col">
 
-            <!-- LEFT COLUMN: Tank + Nozzle Options -->
-            <div class="col-md-6">
+            <h4 class="mb-3">Tank Customizations</h4>
 
-                <h4 class="mb-3">Tank Customizations</h4>
-
-                <div class="mb-3">
-                    <label class="form-label">Tank Customization 1</label>
-                    <select asp-for="TankCust1" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
-                        <option value="">Select Option</option>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Tank Customization 2</label>
-                    <select asp-for="TankCust2" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
-                        <option value="">Select Option</option>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Tank Customization 3</label>
-                    <select asp-for="TankCust3" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
-                        <option value="">Select Option</option>
-                    </select>
-                </div>
-
-                <h4 class="mb-3">Nozzle Customizations</h4>
-
-                <div class="mb-3">
-                    <label class="form-label">Nozzle Customization 1</label>
-                    <select class="form-select">
-                        <option>Select Option</option>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Nozzle Customization 2</label>
-                    <select class="form-select">
-                        <option>Select Option</option>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Nozzle Customization 3</label>
-                    <select class="form-select">
-                        <option>Select Option</option>
-                    </select>
-                </div>
-
+            <div class="mb-3">
+                <label class="form-label">Tank Customization 1</label>
+                <select asp-for="TankCust1" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                    <option value="">Select Option</option>
+                </select>
+                <textarea asp-for="TankCust1Notes" class="form-control notes-box" placeholder="Notes for customization 1"></textarea>
             </div>
 
-            <!-- RIGHT COLUMN: Tank Image + Pricing -->
-            <div class="col-md-6">
-
-                <div class="border p-3 mb-4 text-center bg-light" style="height: 300px;">
-                    <p class="mt-5">Image of tank with numbered arrows pointing to specific parts.</p>
-                </div>
-
-                <h4 class="mb-3">Pricing</h4>
-
-                <div class="mb-3">
-                    <label class="form-label">Price of individual component</label>
-                    <input type="text" class="form-control" />
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Labor Hours</label>
-                    <input type="text" class="form-control" />
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Tax</label>
-                    <input type="text" class="form-control" />
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Total</label>
-                    <input type="text" class="form-control" />
-                </div>
-
+            <div class="mb-3">
+                <label class="form-label">Tank Customization 2</label>
+                <select asp-for="TankCust2" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                    <option value="">Select Option</option>
+                </select>
+                <textarea asp-for="TankCust2Notes" class="form-control notes-box" placeholder="Notes for customization 2"></textarea>
             </div>
+
+            <div class="mb-3">
+                <label class="form-label">Tank Customization 3</label>
+                <select asp-for="TankCust3" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                    <option value="">Select Option</option>
+                </select>
+                <textarea asp-for="TankCust3Notes" class="form-control notes-box" placeholder="Notes for customization 3"></textarea>
+            </div>
+
+            <h4 class="mb-3">Nozzle Customizations</h4>
+
+            <div class="mb-3">
+                <label class="form-label">Nozzle Customization 1</label>
+                <select asp-for="NozzleCust1" class="form-select">
+                    <option>Select Option</option>
+                </select>
+                <textarea asp-for="NozzleCust1Notes" class="form-control notes-box" placeholder="Notes for nozzle 1"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Nozzle Customization 2</label>
+                <select asp-for="NozzleCust2" class="form-select">
+                    <option>Select Option</option>
+                </select>
+                <textarea asp-for="NozzleCust2Notes" class="form-control notes-box" placeholder="Notes for nozzle 2"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Nozzle Customization 3</label>
+                <select asp-for="NozzleCust3" class="form-select">
+                    <option>Select Option</option>
+                </select>
+                <textarea asp-for="NozzleCust3Notes" class="form-control notes-box" placeholder="Notes for nozzle 3"></textarea>
+            </div>
+
         </div>
 
-        <div class="text-center mt-4">
-            <button type="submit" class="btn btn-primary px-4">Submit</button>
+        <div class="col-md-6 right-col">
+
+            <div class="border bg-light p-3 mb-4" style="height: 300px;">
+                <p class="mt-5">Image of tank</p>
+            </div>
+
+            <h4 class="mb-3">Pricing</h4>
+
+            <div class="mb-3">
+                <label class="form-label">Price of individual component</label>
+                <input type="text" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Labor Hours</label>
+                <input type="text" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Tax</label>
+                <div class="form-control bg-light">Calculated automatically</div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Total</label>
+                <div class="form-control bg-light">Calculated automatically</div>
+            </div>
+
         </div>
-    </form>
-</div>
+    </div>
+
+    <div class="text-center mt-4">
+        <button type="submit" class="btn btn-primary px-4">Submit</button>
+    </div>
+</form>

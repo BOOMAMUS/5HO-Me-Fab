@@ -1,17 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _5HO_Me_Fab.Models
 {
     public class UserInputModel
     {
-        public string? Name { get; set; }
         public string? TankCust1 { get; set; }
         public string? TankCust2 { get; set; }
         public string? TankCust3 { get; set; }
+
+        public string? TankCust1Notes { get; set; }
+        public string? TankCust2Notes { get; set; }
+        public string? TankCust3Notes { get; set; }
+
+        public string? NozzleCust1 { get; set; }
+        public string? NozzleCust2 { get; set; }
+        public string? NozzleCust3 { get; set; }
+
+        public string? NozzleCust1Notes { get; set; }
+        public string? NozzleCust2Notes { get; set; }
+        public string? NozzleCust3Notes { get; set; }
 
         public List<string> TankOptions { get; set; } = new()
         {
