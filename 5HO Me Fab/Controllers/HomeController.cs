@@ -25,9 +25,10 @@ namespace _5HO_Me_Fab.Controllers
             return View("Result", model);
         }
 
-        public IActionResult Result(UserInputModel model)
+        public IActionResult NextPage()
         {
-            return View("~/Views/Home/Result.cshtml", model);
+            return View("Static View 1");
         }
+
     }
 }
