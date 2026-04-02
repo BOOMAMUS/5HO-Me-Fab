@@ -69,24 +69,25 @@
             <h4 class="mb-3">Pricing</h4>
 
             <div class="mb-3">
-                <label class="form-label">Price of individual component</label>
-                <input type="text" class="form-control" />
+                <label class="form-label">Individual Parts Pricing</label>
+                <div class="math-line">@Model.IndividualPrice</div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Labor Hours</label>
-                <input type="text" class="form-control" />
+                <div class="math-line">@Model.LaborHours</div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Tax</label>
-                <div class="form-control bg-light">Calculated automatically</div>
+                <div class="math-line">@Model.Tax</div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Total</label>
-                <div class="form-control bg-light">Calculated automatically</div>
+                <div class="math-line">@Model.Total</div>
             </div>
+
 
         </div>
     </div>

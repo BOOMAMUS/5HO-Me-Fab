@@ -82,3 +82,9 @@ body {
     padding-left: 0.1in;
     padding-right: 0.1in;
 }
+
+.math-line {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 4px 0;
+}

@@ -20,7 +20,10 @@ namespace _5HO_Me_Fab.Models
         public string? NozzleCust1Notes { get; set; }
         public string? NozzleCust2Notes { get; set; }
         public string? NozzleCust3Notes { get; set; }
-
+        public int? Tax { get; set; }
+        public int? Total { get; set; }
+        public int? LaborHours { get; set; }
+        public int? IndividualPrice { get; set; }
         public List<string> TankOptions { get; set; } = new()
         {
             "Extra Bracing",
