@@ -25,10 +25,9 @@ namespace _5HO_Me_Fab.Controllers
             return View("Result", model);
         }
 
-        public IActionResult NextPage()
+        public IActionResult NextPage(int id)
         {
-            return View("Static View 1");
+            return View($"StaticView{id}");
         }
-
     }
 }
