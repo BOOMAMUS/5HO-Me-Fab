@@ -1,3 +1,4 @@
+/* Global CSS */
 html {
     font-size: 14px;
 }
@@ -112,3 +113,196 @@ body {
     .next-arrow:hover {
         color: #000;
     }
+
+.back-arrow {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 28px;
+    color: #333;
+    text-decoration: none;
+    transform: scaleX(-1);
+}
+
+    .back-arrow:hover {
+        color: #000;
+    }
+
+.sheet {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    padding: 16px 20px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.section {
+    margin-bottom: 16px;
+}
+
+.section-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.section-content {
+    padding-left: 8px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6px;
+}
+
+    .schedule-table th,
+    .schedule-table td {
+        border: 1px solid #555;
+        padding: 4px 6px;
+        font-size: 13px;
+        vertical-align: top;
+    }
+
+    .schedule-table th {
+        background: #f0f0f0;
+        text-align: left;
+    }
+
+.notes {
+    margin-top: 18px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.spec-section {
+    margin-bottom: 22px;
+    font-family: Arial, sans-serif;
+}
+
+.spec-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.spec-content {
+    margin-left: 10px;
+    line-height: 1.45;
+}
+
+.price-line {
+    display: flex;
+    justify-content: space-between;
+    max-width: 420px;
+    margin-left: 10px;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.note-text {
+    font-style: italic;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.spec-section {
+    margin-bottom: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.spec-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.spec-content {
+    margin-left: 10px;
+    line-height: 1.45;
+}
+
+    .spec-content div {
+        margin-bottom: 6px;
+    }
+
+.terms-number {
+    margin-left: 10px;
+    line-height: 1.45;
+    margin-bottom: 6px;
+}
+
+.spec-section {
+    margin-bottom: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.spec-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.spec-content {
+    margin-left: 10px;
+    line-height: 1.45;
+}
+
+    .spec-content div {
+        margin-bottom: 8px;
+    }
+
+.terms-number {
+    margin-left: 10px;
+    line-height: 1.45;
+    margin-bottom: 10px;
+}
+
+.contract-page {
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.contract-section {
+    margin-bottom: 18px;
+}
+
+.contract-section-number {
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.contract-section-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contract-section-body {
+    text-align: justify;
+    margin-top: 4px;
+}
+
+.signature-block {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-top: 40px;
+    width: 60%;
+}
+
+.signature-line {
+    margin-top: 10px;
+}
