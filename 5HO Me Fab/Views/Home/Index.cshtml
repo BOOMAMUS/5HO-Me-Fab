@@ -14,6 +14,7 @@
                     <option value="">Select Option</option>
                 </select>
                 <textarea asp-for="TankCust1Notes" class="form-control notes-box" placeholder="Notes for customization 1"></textarea>
+                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
             </div>
 
             <div class="mb-3">
@@ -22,6 +23,7 @@
                     <option value="">Select Option</option>
                 </select>
                 <textarea asp-for="TankCust2Notes" class="form-control notes-box" placeholder="Notes for customization 2"></textarea>
+                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
             </div>
 
             <div class="mb-3">
@@ -30,6 +32,7 @@
                     <option value="">Select Option</option>
                 </select>
                 <textarea asp-for="TankCust3Notes" class="form-control notes-box" placeholder="Notes for customization 3"></textarea>
+                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
             </div>
 
             <h4 class="mb-3">Nozzle Customizations</h4>
@@ -40,6 +43,7 @@
                     <option>Select Option</option>
                 </select>
                 <textarea asp-for="NozzleCust1Notes" class="form-control notes-box" placeholder="Notes for nozzle 1"></textarea>
+                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
             </div>
 
             <div class="mb-3">
@@ -48,6 +52,7 @@
                     <option>Select Option</option>
                 </select>
                 <textarea asp-for="NozzleCust2Notes" class="form-control notes-box" placeholder="Notes for nozzle 2"></textarea>
+                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
             </div>
 
             <div class="mb-3">
@@ -56,6 +61,7 @@
                     <option>Select Option</option>
                 </select>
                 <textarea asp-for="NozzleCust3Notes" class="form-control notes-box" placeholder="Notes for nozzle 3"></textarea>
+                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
             </div>
 
         </div>
