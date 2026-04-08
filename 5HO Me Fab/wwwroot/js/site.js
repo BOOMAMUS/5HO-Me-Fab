@@ -8,7 +8,9 @@ function updateDesc(selectId, descId) {
     const selected = document.getElementById(selectId).value;
     document.getElementById(descId).innerText = tankDescriptions[selected] || "";
 }
-
+// Need to handle the exception thrown here when swtiching pages.
+// Null reference when switching pages unhandled.
+// JavaScript debugging necessary to see all the descriptions on the index page.
 document.getElementById("TankCust1").addEventListener("change", () => updateDesc("TankCust1", "desc1"));
 document.getElementById("TankCust2").addEventListener("change", () => updateDesc("TankCust2", "desc2"));
 document.getElementById("TankCust3").addEventListener("change", () => updateDesc("TankCust3", "desc3"));
