@@ -10,58 +10,56 @@
 
             <div class="mb-3">
                 <label class="form-label">Tank Customization 1</label>
-                <select asp-for="TankCust1" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                <select id="TankCust1" asp-for="TankCust1" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option value="">Select Option</option>
                 </select>
                 <textarea asp-for="TankCust1Notes" class="form-control notes-box" placeholder="Notes for customization 1"></textarea>
-                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
+                <p id="desc1" class="desc-output"></p>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Tank Customization 2</label>
-                <select asp-for="TankCust2" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                <select id="TankCust2" asp-for="TankCust2" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option value="">Select Option</option>
                 </select>
                 <textarea asp-for="TankCust2Notes" class="form-control notes-box" placeholder="Notes for customization 2"></textarea>
-                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
+                <p id="desc2" class="desc-output"></p>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Tank Customization 3</label>
-                <select asp-for="TankCust3" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                <select id="TankCust3" asp-for="TankCust3" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option value="">Select Option</option>
                 </select>
                 <textarea asp-for="TankCust3Notes" class="form-control notes-box" placeholder="Notes for customization 3"></textarea>
-                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
-            </div>
-
-            <h4 class="mb-3">Nozzle Customizations</h4>
-
-            <div class="mb-3">
-                <label class="form-label">Nozzle Customization 1</label>
-                <select asp-for="NozzleCust1" class="form-select">
-                    <option>Select Option</option>
-                </select>
-                <textarea asp-for="NozzleCust1Notes" class="form-control notes-box" placeholder="Notes for nozzle 1"></textarea>
-                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
+                <p id="desc3" class="desc-output"></p>
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Nozzle Customization 2</label>
-                <select asp-for="NozzleCust2" class="form-select">
+                <label class="form-label">Tank Customization 4</label>
+                <select id="TankCust4" asp-for="TankCust4" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option>Select Option</option>
                 </select>
-                <textarea asp-for="NozzleCust2Notes" class="form-control notes-box" placeholder="Notes for nozzle 2"></textarea>
-                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
+                <textarea asp-for="TankCust4Notes" class="form-control notes-box" placeholder="Notes for customization 4"></textarea>
+                <p id="desc4" class="desc-output"></p>
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Nozzle Customization 3</label>
-                <select asp-for="NozzleCust3" class="form-select">
+                <label class="form-label">Tank Customization 5</label>
+                <select id="TankCust5" asp-for="TankCust5" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option>Select Option</option>
                 </select>
-                <textarea asp-for="NozzleCust3Notes" class="form-control notes-box" placeholder="Notes for nozzle 3"></textarea>
-                <p asp-for="TankDesc" class="mb-3" asp-items="@(new SelectList(Model.TankDesc))"></p>
+                <textarea asp-for="TankCust5Notes" class="form-control notes-box" placeholder="Notes for customization 5"></textarea>
+                <p id="desc5" class="desc-output"></p>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Tank Customization 6</label>
+                <select id="TankCust6" asp-for="TankCust6" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
+                    <option>Select Option</option>
+                </select>
+                <textarea asp-for="TankCust6Notes" class="form-control notes-box" placeholder="Notes for customization 6"></textarea>
+                <p id="desc6" class="desc-output"></p>
             </div>
 
         </div>
@@ -69,7 +67,7 @@
         <div class="col-md-6 right-col">
 
             <div class="border bg-light p-3 mb-4" style="height: 300px;">
-                <p class="mt-5">Image of tank</p>
+                <img src="~/images/Tank.png" style="max-width:100%; max-height:100%; object-fit:contain;" />
             </div>
 
             <h4 class="mb-3">Pricing</h4>
@@ -97,8 +95,11 @@
     </div>
 
     <div class="d-flex justify-content-end mt-4">
-        <button type="submit" class="btn export-btn px-4">Export to Excel</button>
+        <button type="submit" formaction="/Home/ExportToExcel" formmethod="post" class="btn export-btn px-4">Export to Excel</button>
     </div>
 </form>
 
 <a href="/Home/NextPage/1" class="next-arrow">&#10140;</a>
+<script>
+    window.tankLookupData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.TankLookup));
+</script>

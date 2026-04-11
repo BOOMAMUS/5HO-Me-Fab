@@ -7,4 +7,8 @@
     <RootNamespace>_5HO_Me_Fab</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+  </ItemGroup>
+
 </Project>
