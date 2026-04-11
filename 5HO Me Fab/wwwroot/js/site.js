@@ -2,11 +2,6 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-
-// Need to handle the exception thrown here when swtiching pages.
-// Null reference when switching pages unhandled.
-// JavaScript debugging necessary to see all the descriptions on the index page.
-
 const tankDescriptions = window.tankLookupData;
 
 function updateDesc(selectId, descId) {
