@@ -100,6 +100,10 @@
 </form>
 
 <a href="/Home/NextPage/1" class="next-arrow">&#10140;</a>
-<script>
-    window.tankLookupData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.TankLookup));
-</script>
+
+@section Scripts {
+    <script>
+        window.tankLookupData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.TankLookup));
+    </script>
+    <script src="~/js/site.js"></script>
+}

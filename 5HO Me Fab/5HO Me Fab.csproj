@@ -11,4 +11,8 @@
     <PackageReference Include="ClosedXML" Version="0.105.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\images\Tank.png" />
+  </ItemGroup>
+
 </Project>
