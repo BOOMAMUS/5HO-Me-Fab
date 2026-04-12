@@ -13,7 +13,7 @@
                 <select id="TankCust1" asp-for="TankCust1" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option value="">Select Option</option>
                 </select>
-                <textarea asp-for="TankCust1Notes" class="form-control notes-box" placeholder="Notes for customization 1"></textarea>
+                <textarea id="TankCust1Notes" asp-for="TankCust1Notes" class="form-control notes-box" placeholder="Notes for customization 1"></textarea>
                 <p id="desc1" class="desc-output"></p>
             </div>
 
@@ -22,7 +22,7 @@
                 <select id="TankCust2" asp-for="TankCust2" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option value="">Select Option</option>
                 </select>
-                <textarea asp-for="TankCust2Notes" class="form-control notes-box" placeholder="Notes for customization 2"></textarea>
+                <textarea id="TankCust2Notes" asp-for="TankCust2Notes" class="form-control notes-box" placeholder="Notes for customization 2"></textarea>
                 <p id="desc2" class="desc-output"></p>
             </div>
 
@@ -31,7 +31,7 @@
                 <select id="TankCust3" asp-for="TankCust3" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option value="">Select Option</option>
                 </select>
-                <textarea asp-for="TankCust3Notes" class="form-control notes-box" placeholder="Notes for customization 3"></textarea>
+                <textarea id="TankCust3Notes" asp-for="TankCust3Notes" class="form-control notes-box" placeholder="Notes for customization 3"></textarea>
                 <p id="desc3" class="desc-output"></p>
             </div>
 
@@ -40,7 +40,7 @@
                 <select id="TankCust4" asp-for="TankCust4" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option>Select Option</option>
                 </select>
-                <textarea asp-for="TankCust4Notes" class="form-control notes-box" placeholder="Notes for customization 4"></textarea>
+                <textarea id="TankCust4Notes" asp-for="TankCust4Notes" class="form-control notes-box" placeholder="Notes for customization 4"></textarea>
                 <p id="desc4" class="desc-output"></p>
             </div>
 
@@ -49,7 +49,7 @@
                 <select id="TankCust5" asp-for="TankCust5" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option>Select Option</option>
                 </select>
-                <textarea asp-for="TankCust5Notes" class="form-control notes-box" placeholder="Notes for customization 5"></textarea>
+                <textarea id="TankCust5Notes" asp-for="TankCust5Notes" class="form-control notes-box" placeholder="Notes for customization 5"></textarea>
                 <p id="desc5" class="desc-output"></p>
             </div>
 
@@ -58,7 +58,7 @@
                 <select id="TankCust6" asp-for="TankCust6" class="form-select" asp-items="@(new SelectList(Model.TankOptions))">
                     <option>Select Option</option>
                 </select>
-                <textarea asp-for="TankCust6Notes" class="form-control notes-box" placeholder="Notes for customization 6"></textarea>
+                <textarea id="TankCust6Notes" asp-for="TankCust6Notes" class="form-control notes-box" placeholder="Notes for customization 6"></textarea>
                 <p id="desc6" class="desc-output"></p>
             </div>
 
@@ -74,22 +74,22 @@
 
             <div class="mb-3">
                 <label class="form-label">Individual Parts Pricing</label>
-                <div class="math-line">@Model.IndividualPrice</div>
+                <div id="price-individual" class="math-line">@Model.IndividualPrice</div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Labor Hours</label>
-                <div class="math-line">@Model.LaborHours</div>
+                <div id="price-labor" class="math-line">@Model.LaborHours</div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Tax</label>
-                <div class="math-line">@Model.Tax</div>
+                <div id="price-tax" class="math-line">@Model.Tax</div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Total</label>
-                <div class="math-line">@Model.Total</div>
+                <div id="price-total" class="math-line">@Model.Total</div>
             </div>
         </div>
     </div>
@@ -104,6 +104,7 @@
 @section Scripts {
     <script>
         window.tankLookupData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.TankLookup));
+        window.tankPriceData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.TankPrices));
     </script>
     <script src="~/js/site.js"></script>
 }

@@ -19,16 +19,33 @@ namespace _5HO_Me_Fab.Controllers
         {
             model.TankOptions = new UserInputModel().TankOptions;
             model.TankLookup = new UserInputModel().TankLookup;
+            model.TankPrices = new UserInputModel().TankPrices;
 
             if (!ModelState.IsValid)
             {
                 return View("Index", model);
             }
 
-            var individual = model.IndividualPrice ?? 0;
-            var labor = model.LaborHours ?? 0;
+            decimal individual = 0m;
+
+            if (!string.IsNullOrEmpty(model.TankCust1) && model.TankPrices.TryGetValue(model.TankCust1, out var p1))
+                individual += p1;
+            if (!string.IsNullOrEmpty(model.TankCust2) && model.TankPrices.TryGetValue(model.TankCust2, out var p2))
+                individual += p2;
+            if (!string.IsNullOrEmpty(model.TankCust3) && model.TankPrices.TryGetValue(model.TankCust3, out var p3))
+                individual += p3;
+            if (!string.IsNullOrEmpty(model.TankCust4) && model.TankPrices.TryGetValue(model.TankCust4, out var p4))
+                individual += p4;
+            if (!string.IsNullOrEmpty(model.TankCust5) && model.TankPrices.TryGetValue(model.TankCust5, out var p5))
+                individual += p5;
+            if (!string.IsNullOrEmpty(model.TankCust6) && model.TankPrices.TryGetValue(model.TankCust6, out var p6))
+                individual += p6;
+
+            model.IndividualPrice = individual;
+
+            var labor = model.LaborHours ?? 0m;
             var subtotal = individual + labor;
-            var tax = (int)(subtotal * 0.08);
+            var tax = subtotal * 0.08m;
             model.Tax = tax;
             model.Total = subtotal + tax;
 
@@ -38,10 +55,28 @@ namespace _5HO_Me_Fab.Controllers
         [HttpPost]
         public IActionResult ExportToExcel(UserInputModel model)
         {
-            var individual = model.IndividualPrice ?? 0;
-            var labor = model.LaborHours ?? 0;
+            model.TankPrices = new UserInputModel().TankPrices;
+
+            decimal individual = 0m;
+
+            if (!string.IsNullOrEmpty(model.TankCust1) && model.TankPrices.TryGetValue(model.TankCust1, out var p1))
+                individual += p1;
+            if (!string.IsNullOrEmpty(model.TankCust2) && model.TankPrices.TryGetValue(model.TankCust2, out var p2))
+                individual += p2;
+            if (!string.IsNullOrEmpty(model.TankCust3) && model.TankPrices.TryGetValue(model.TankCust3, out var p3))
+                individual += p3;
+            if (!string.IsNullOrEmpty(model.TankCust4) && model.TankPrices.TryGetValue(model.TankCust4, out var p4))
+                individual += p4;
+            if (!string.IsNullOrEmpty(model.TankCust5) && model.TankPrices.TryGetValue(model.TankCust5, out var p5))
+                individual += p5;
+            if (!string.IsNullOrEmpty(model.TankCust6) && model.TankPrices.TryGetValue(model.TankCust6, out var p6))
+                individual += p6;
+
+            model.IndividualPrice = individual;
+
+            var labor = model.LaborHours ?? 0m;
             var subtotal = individual + labor;
-            var tax = (int)(subtotal * 0.08);
+            var tax = subtotal * 0.08m;
             model.Tax = tax;
             model.Total = subtotal + tax;
 

@@ -17,10 +17,10 @@ namespace _5HO_Me_Fab.Models
         public string? TankCust4Notes { get; set; }
         public string? TankCust5Notes { get; set; }
         public string? TankCust6Notes { get; set; }
-        public int? Tax { get; set; }
-        public int? Total { get; set; }
-        public int? LaborHours { get; set; }
-        public int? IndividualPrice { get; set; }
+        public decimal? Tax { get; set; }
+        public decimal? Total { get; set; }
+        public decimal? LaborHours { get; set; }
+        public decimal? IndividualPrice { get; set; }
         public List<string> TankOptions { get; set; } = new()
         {
             "FTOA-450X350-3.0-304-P-E-H",
@@ -58,6 +58,25 @@ namespace _5HO_Me_Fab.Models
             { "FTOA-07 ; FTOC-07", "Manway Connex Pin FTOC, FTOA" },
             { "FTOA-08 ; FTOC-08", "Manway Cap Nut FTOC" },
             { "FTOA-04", "Manway Arm FTOA" }
+        };
+        public Dictionary<string, decimal> TankPrices { get; set; } = new()
+        {
+            { "FTOA-450X350-3.0-304-P-E-H", 35.30m },
+            { "FTOA-550X450-3.0-304-P-E-H", 22.82m },
+            { "FTOA-550X450-3.0-316-P-E-H", 17.87m },
+            { "FTOA-565X465-3.0-304-P-E-H", 0m },
+            { "FTOA-565X465-3.0-316-P-E-H", 0m },
+            { "FTOA-565X465-3.0-316-P-E-HF", 61.15m },
+            { "FTOA-580-GSKT-E", 51.32m },
+            { "FTOA-580-GSKT-V", 0m },
+            { "FTOA-580X480-3.0-304-P-E-HF", 51.05m },
+            { "FTOA-580X480-3.0-316-P-E-HF", 68.24m },
+            { "FTOA-HUB-3", 103.09m },
+            { "FTOA-03", 37.72m },
+            { "FTOA-05-Y ; FTOC-05-Y", 0m },
+            { "FTOA-07 ; FTOC-07", 0.07m },
+            { "FTOA-08 ; FTOC-08", 1.24m },
+            { "FTOA-04", 1.25m }
         };
     }
 }

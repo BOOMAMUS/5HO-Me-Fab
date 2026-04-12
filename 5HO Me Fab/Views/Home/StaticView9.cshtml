@@ -74,8 +74,17 @@
     <div class="signature-block">
         <p class="contract-section-title">Accepted and Agreed:</p>
         <p class="signature-line">By: ___________________________</p>
+        @* <p>By: <textarea asp-for="ClientBy" class="signature-line"></textarea></p>
+
+        <p>Name: <textarea asp-for="Name" class="signature-line"></textarea></p>
+        <p>Title: <textarea asp-for="Title" class="signature-line"></textarea></p> *@
+        <p>By: <textarea class="signature-line"></textarea></p>
+        <p>Name: <textarea class="signature-line"></textarea></p>
+        <p>Title: <textarea class="signature-line"></textarea></p>
+        @* <p class="signature-line">By: ___________________________</p>
         <p class="signature-line">Name: _________________________</p>
         <p class="signature-line">Title: __________________________</p>
+        <p class="signature-line">Title: __________________________</p> *@
     </div>
 </div>
 
