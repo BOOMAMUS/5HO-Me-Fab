@@ -68,27 +68,61 @@ function loadState() {
     updatePricing();
 }
 
+function fmt(n) {
+    return "$" + n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
 function updatePricing() {
     const selects = [
         "TankCust1", "TankCust2", "TankCust3",
         "TankCust4", "TankCust5", "TankCust6"
     ];
 
-    let total = 0;
+    let partsTotal = 0;
+    let laborHours = 0;
+    let uniqueParts = new Set();
+    let partLines = [];
 
     selects.forEach(id => {
         const val = document.getElementById(id).value;
-        if (tankPrices[val]) total += tankPrices[val];
+        if (val) uniqueParts.add(val);
     });
 
-    const labor = 0;
-    const tax = total * 0.08;
-    const grand = total + labor + tax;
+    uniqueParts.forEach(val => {
+        const price = tankPrices[val] || 0;
+        if (price > 0) {
+            partsTotal += price;
+            laborHours += 4;
+            partLines.push(val + " " + fmt(price) + " +");
+        }
+    });
 
-    document.getElementById("price-individual").innerText = total.toFixed(2);
-    document.getElementById("price-labor").innerText = labor.toFixed(2);
-    document.getElementById("price-tax").innerText = tax.toFixed(2);
-    document.getElementById("price-total").innerText = grand.toFixed(2);
+    const laborCost = laborHours * 50;
+    const tankBase = 31085.00;
+    const subtotal = tankBase + partsTotal + laborCost;
+    const tax = subtotal * 0.08;
+    const grand = subtotal + tax;
+
+    document.getElementById("price-base").innerText = fmt(tankBase);
+
+    document.getElementById("price-individual-breakdown").innerHTML =
+        partLines.length > 0 ? partLines.join("<br>") : "No priced parts selected";
+
+    document.getElementById("price-individual").innerText =
+        fmt(partsTotal);
+
+    document.getElementById("price-labor-breakdown").innerText =
+        "50 × " + laborHours + " = " + fmt(laborCost);
+
+    document.getElementById("price-labor").innerText = fmt(laborCost);
+
+    document.getElementById("price-tax-breakdown").innerText =
+        fmt(subtotal) + " × 0.08 = " + fmt(tax);
+
+    document.getElementById("price-tax").innerText = fmt(tax);
+
+    document.getElementById("price-total").innerText =
+        fmt(grand);
 }
 
 window.addEventListener("load", loadState);

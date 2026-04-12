@@ -73,23 +73,33 @@
             <h4 class="mb-3">Pricing</h4>
 
             <div class="mb-3">
+                <label class="form-label">Tank Base Price</label>
+                <div id="price-base" class="math-line">$31,085.00</div>
+            </div>
+
+            <div class="mb-3">
                 <label class="form-label">Individual Parts Pricing</label>
-                <div id="price-individual" class="math-line">@Model.IndividualPrice</div>
+                <div id="price-individual-breakdown" class="math-line"></div>
+                <div id="price-individual" class="math-line"></div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Labor Hours</label>
-                <div id="price-labor" class="math-line">@Model.LaborHours</div>
+                <div id="price-labor-breakdown" class="math-line"></div>
+                <div id="price-labor" class="math-line"></div>
             </div>
+
+            <hr style="border-top: 2px solid black; width: 60%; margin: 10px 0;">
 
             <div class="mb-3">
                 <label class="form-label">Tax</label>
-                <div id="price-tax" class="math-line">@Model.Tax</div>
+                <div id="price-tax-breakdown" class="math-line"></div>
+                <div id="price-tax" class="math-line"></div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Total</label>
-                <div id="price-total" class="math-line">@Model.Total</div>
+                <div id="price-total" class="math-line"></div>
             </div>
         </div>
     </div>
@@ -106,5 +116,5 @@
         window.tankLookupData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.TankLookup));
         window.tankPriceData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.TankPrices));
     </script>
-    <script src="~/js/site.js"></script>
+    <script src="~/js/site.js?v=3"></script>
 }
