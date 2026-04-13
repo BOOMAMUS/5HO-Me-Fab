@@ -15,4 +15,8 @@
     <None Include="wwwroot\images\Tank.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Publish\" />
+  </ItemGroup>
+
 </Project>
