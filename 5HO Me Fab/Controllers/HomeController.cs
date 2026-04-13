@@ -119,6 +119,10 @@ namespace _5HO_Me_Fab.Controllers
             ws.Cell("A13").Value = "Total";
             ws.Cell("B13").Value = model.Total;
 
+            ws.Range("C1:C6").Style.Alignment.WrapText = true;
+            ws.Columns().AdjustToContents();
+            ws.Rows().AdjustToContents();
+
             using var stream = new MemoryStream();
             workbook.SaveAs(stream);
             var content = stream.ToArray();
