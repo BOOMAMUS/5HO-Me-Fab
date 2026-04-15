@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/5HO Me Fab/obj/Debug/net9.0/5HO Me Fab.AssemblyInfo.cs
+/5HO Me Fab/obj/Debug/net9.0/5HO Me Fab.AssemblyInfoInputs.cache
+/5HO Me Fab/obj/Debug/net9.0/5HO Me Fab.assets.cache
+/5HO Me Fab/obj/Debug/net9.0/5HO Me Fab.GeneratedMSBuildEditorConfig.editorconfig
+/5HO Me Fab/obj/Debug/net9.0/rpswa.dswa.cache.json
+/5HO Me Fab/obj/Debug/net9.0/staticwebassets.removed.txt
