@@ -1,5 +1,22 @@
 ﻿@{
-    Layout = "_Layout";
+    Layout = Context.Request.Query["print"] == "1" ? null : "_Layout";
+}
+
+@if (Context.Request.Query["print"] == "1")
+{
+    <style>
+        body {font-family: Arial, sans-serif;padding: 20px;}
+
+        .quote-wrapper {padding: 20px;border: 1px solid #ccc;margin-bottom: 40px;}
+
+        .quote-header div {font-weight: bold;}
+
+        .quote-row {display: flex;justify-content: space-between;margin-top: 10px;}
+
+        .quote-section {margin-top: 15px;}
+
+        .quote-section div {margin-bottom: 5px;}
+    </style>
 }
 
 <div class="quote-wrapper">

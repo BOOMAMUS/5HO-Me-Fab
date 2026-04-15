@@ -138,5 +138,8 @@ namespace _5HO_Me_Fab.Controllers
         {
             return View($"StaticView{id}");
         }
+
+
+
     }
 }
