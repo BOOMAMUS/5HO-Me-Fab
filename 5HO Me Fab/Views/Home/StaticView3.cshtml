@@ -1,7 +1,7 @@
 ﻿@{
-    Layout = Context.Request.Query["print"] == "1" ? null : "_Layout";
+    Layout = ViewBag.PrintMode == true ? null : "_Layout";
 }
-@if (Context.Request.Query["print"] == "1")
+@if (ViewBag.PrintMode == true)
 {
     <style>
         .sheet {

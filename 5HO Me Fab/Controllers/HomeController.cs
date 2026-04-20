@@ -139,6 +139,46 @@ namespace _5HO_Me_Fab.Controllers
             return View($"StaticView{id}");
         }
 
+        public IActionResult StaticView1Print()
+        {
+            ViewBag.PrintMode = true;
+            return View("StaticView1");
+        }
+        public IActionResult StaticView2Print()
+        {
+            ViewBag.PrintMode = true;
+            return View("StaticView2");
+        }
+        public IActionResult StaticView3Print()
+        {
+            ViewBag.PrintMode = true;
+            return View("StaticView3");
+        }
+        public IActionResult StaticView4Print()
+        {
+            ViewBag.PrintMode = true;
+            return View("StaticView4");
+        }
+        public IActionResult StaticView5Print()
+        {
+            ViewBag.PrintMode = true;
+            return View("StaticView5");
+        }
+        public IActionResult StaticView6Print()
+        {
+            ViewBag.PrintMode = true;
+            return View("StaticView6");
+        }
+        public IActionResult StaticView7Print()
+        {
+            ViewBag.PrintMode = true;
+            return View("StaticView7");
+        }
+        public IActionResult StaticView8Print()
+        {
+            ViewBag.PrintMode = true;
+            return View("StaticView8");
+        }
 
 
     }

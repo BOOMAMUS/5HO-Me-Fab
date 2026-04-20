@@ -303,11 +303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aecma\\source\\repos\\Sho-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj",
+      "projectUniqueName": "C:\\Users\\Aecma\\Source\\Repos\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj",
       "projectName": "5HO Me Fab",
-      "projectPath": "C:\\Users\\Aecma\\source\\repos\\Sho-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj",
+      "projectPath": "C:\\Users\\Aecma\\Source\\Repos\\5HO-Me-Fab\\5HO Me Fab\\5HO Me Fab.csproj",
       "packagesPath": "C:\\Users\\Aecma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aecma\\source\\repos\\Sho-Me-Fab\\5HO Me Fab\\obj\\",
+      "outputPath": "C:\\Users\\Aecma\\Source\\Repos\\5HO-Me-Fab\\5HO Me Fab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

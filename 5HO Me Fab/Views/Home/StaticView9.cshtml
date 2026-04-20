@@ -1,166 +1,158 @@
 ﻿@{
-    Layout = Context.Request.Query["print"] == "1" ? null : "_Layout";
+    Layout = ViewBag.PrintMode == true ? null : "_Layout";
 }
 
 <style>
     .pdf-page {
         width: 100%;
-        height: 1200px;
+        height: 700px;
         border: none;
-        margin-bottom: 40px;
+        margin: 0;
+        padding: 0;
+        display: block;
     }
-    .page-break {
-        page-break-after: always;
+    #allPages {
+        font-size: 0;
+    }
+    .view2{
+        height: 1200px;
+    }
+    .view8{
+        height: 850px;
     }
 </style>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+<script src="site.js*"></script>
+
 
 <script>
-    let pages = [
-        "/Home/Index?print=1",
-        "/Home/StaticView1?print=1",
-        "/Home/StaticView2?print=1",
-        "/Home/StaticView3?print=1",
-        "/Home/StaticView4?print=1",
-        "/Home/StaticView5?print=1",
-        "/Home/StaticView6?print=1",
-        "/Home/StaticView7?print=1",
-        "/Home/StaticView8?print=1",
-        "/Home/StaticView9?print=1"
+    
+    let allPages = [
+        "/Home/StaticView1Print",
+        "/Home/StaticView2Print",
+        "/Home/StaticView3Print",
+        "/Home/StaticView4Print",
+        "/Home/StaticView5Print",
+        "/Home/StaticView6Print",
+        "/Home/StaticView7Print",
+        "/Home/StaticView8Print",
+        "/Home/StaticView9Print"
     ];
-    $(function () {
+
+        $(document).ready(function () {
+
         $("#printAll").on("click", function () {
             window.print();
         });
+
     });
 
 </script>
-<div id="print-area">
-    <div id="allPages">
-        <object data="/Home/Index?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
 
-        <object data="/Home/StaticView1?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
+<div id="print-area" style="width: 100%">
+    <div id="container_content">
+        <div id="allPages">
+            <object data="/Home/StaticView1Print" type="text/html" class="pdf-page"></object>
+            <object data="/Home/StaticView2Print" type="text/html" class="pdf-page view2"></object>
+            <object data="/Home/StaticView3Print" type="text/html" class="pdf-page"></object>
+            <object data="/Home/StaticView4Print" type="text/html" class="pdf-page"></object>
+            <object data="/Home/StaticView5Print" type="text/html" class="pdf-page"></object>
+            <object data="/Home/StaticView6Print" type="text/html" class="pdf-page"></object>
+            <object data="/Home/StaticView7Print" type="text/html" class="pdf-page"></object>
+            <object data="/Home/StaticView8Print" type="text/html" class="pdf-page view8"></object>
+        </div>
 
-        <object data="/Home/StaticView2?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
 
-        <object data="/Home/StaticView3?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
+    <div class="contract-page">
 
-        <object data="/Home/StaticView4?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
+        <div class="contract-section">
+            <span class="contract-section-number">26.</span>
+            <span class="contract-section-title">Insurance:</span>
+            <p class="contract-section-body">
+                During all times at which Purchaser is performing any work as described in the Sales Order (“Work”) on
+                premises owned, leased, or used by Purchaser (“Premises”), Purchaser shall, at its own expense, maintain
+                and carry insurance in full force and effect which includes, but is not limited to, commercial general
+                liability (including product liability) on an occurrence basis in a sum no less than $1,000,000 per
+                occurrence and $3,000,000 in the aggregate, and a Builder’s Risk insurance policy covering damage from
+                defective design and workmanship, equipment breakdown, testing coverage, fire, wind, hail, smoke,
+                vehicles, theft, vandalism, flood, earthquake, water damage, and damage to existing buildings or
+                structures. Purchaser shall provide Seller with certificates of insurance naming Seller and designated
+                subcontractors as additional insureds, and thirty (30) days’ advance written notice of cancellation or
+                material change. Except where prohibited by law, Purchaser waives subrogation rights against Seller.
+                Deductibles or coinsurance payments shall be borne by the party primarily causing the claim; if no party
+                is primarily responsible, Purchaser shall bear such costs.
+            </p>
+        </div>
 
-        <object data="/Home/StaticView5?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
+        <div class="contract-section">
+            <span class="contract-section-number">27.</span>
+            <span class="contract-section-title">Compliance:</span>
+            <p class="contract-section-body">
+                Purchaser shall maintain the Premises in compliance with all applicable laws.
+            </p>
+        </div>
 
-        <object data="/Home/StaticView6?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
+        <div class="contract-section">
+            <span class="contract-section-number">28.</span>
+            <span class="contract-section-title">Work Payments:</span>
+            <p class="contract-section-body">
+                If Purchaser requests Seller to perform additional work, such work shall be charged at $150.00 per hour
+                per person performing the work. If Seller’s employees are unable to perform the Work due to conditions
+                outside Seller’s control (“Third‑Party Delays”), Purchaser shall pay Seller $150.00 per hour for each of
+                Seller’s employees and contractors present on the Premises.
+            </p>
+        </div>
 
-        <object data="/Home/StaticView7?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
+        <div class="contract-section">
+            <span class="contract-section-number">29.</span>
+            <span class="contract-section-title">Delays:</span>
+            <p class="contract-section-body">
+                All time periods for Seller’s delivery or completion of the Work shall be extended by the number of days
+                affected by a Force Majeure Event or a Third‑Party Delay.
+            </p>
+        </div>
 
-        <object data="/Home/StaticView8?print=1" type="text/html" class="pdf-page"></object>
-        <div class="page-break"></div>
+        <div class="contract-section">
+            <span class="contract-section-number">30.</span>
+            <span class="contract-section-title">Security:</span>
+            <p class="contract-section-body">
+                Purchaser shall ensure that the Premises is secure and safe for the Work. Purchaser shall indemnify and
+                hold Seller harmless from any theft or damage to Seller’s Goods, equipment, or parts resulting from
+                Purchaser’s failure to provide commercially reasonable security measures such as adequate doors, gates,
+                locks, and lighting.
+            </p>
+        </div>
 
-        <object data="/Home/StaticView9?print=1" type="text/html" class="pdf-page"></object>
+        <div class="contract-section">
+            <span class="contract-section-number">31.</span>
+            <span class="contract-section-title">Safety:</span>
+            <p class="contract-section-body">
+                Purchaser shall ensure that the Premises complies with all laws and regulations relating to the safety
+                of construction or work sites.
+            </p>
+        </div>
+
+        <div class="signature-block">
+            <p class="contract-section-title">Accepted and Agreed:</p>
+            <p class="signature-line">By: ___________________________</p>
+            @* <p>By: <textarea asp-for="ClientBy" class="signature-line"></textarea></p>
+
+            <p>Name: <textarea asp-for="Name" class="signature-line"></textarea></p>
+            <p>Title: <textarea asp-for="Title" class="signature-line"></textarea></p> *@
+            <p>By: <textarea class="signature-line"></textarea></p>
+            <p>Name: <textarea class="signature-line"></textarea></p>
+            <p>Title: <textarea class="signature-line"></textarea></p>
+            @* <p class="signature-line">By: ___________________________</p>
+            <p class="signature-line">Name: _________________________</p>
+            <p class="signature-line">Title: __________________________</p>
+            <p class="signature-line">Title: __________________________</p> *@
+        </div>
     </div>
-
-<div id="container_content">
-<div class="contract-page">
-
-    <div class="contract-section">
-        <span class="contract-section-number">26.</span>
-        <span class="contract-section-title">Insurance:</span>
-        <p class="contract-section-body">
-            During all times at which Purchaser is performing any work as described in the Sales Order (“Work”) on
-            premises owned, leased, or used by Purchaser (“Premises”), Purchaser shall, at its own expense, maintain
-            and carry insurance in full force and effect which includes, but is not limited to, commercial general
-            liability (including product liability) on an occurrence basis in a sum no less than $1,000,000 per
-            occurrence and $3,000,000 in the aggregate, and a Builder’s Risk insurance policy covering damage from
-            defective design and workmanship, equipment breakdown, testing coverage, fire, wind, hail, smoke,
-            vehicles, theft, vandalism, flood, earthquake, water damage, and damage to existing buildings or
-            structures. Purchaser shall provide Seller with certificates of insurance naming Seller and designated
-            subcontractors as additional insureds, and thirty (30) days’ advance written notice of cancellation or
-            material change. Except where prohibited by law, Purchaser waives subrogation rights against Seller.
-            Deductibles or coinsurance payments shall be borne by the party primarily causing the claim; if no party
-            is primarily responsible, Purchaser shall bear such costs.
-        </p>
-    </div>
-
-    <div class="contract-section">
-        <span class="contract-section-number">27.</span>
-        <span class="contract-section-title">Compliance:</span>
-        <p class="contract-section-body">
-            Purchaser shall maintain the Premises in compliance with all applicable laws.
-        </p>
-    </div>
-
-    <div class="contract-section">
-        <span class="contract-section-number">28.</span>
-        <span class="contract-section-title">Work Payments:</span>
-        <p class="contract-section-body">
-            If Purchaser requests Seller to perform additional work, such work shall be charged at $150.00 per hour
-            per person performing the work. If Seller’s employees are unable to perform the Work due to conditions
-            outside Seller’s control (“Third‑Party Delays”), Purchaser shall pay Seller $150.00 per hour for each of
-            Seller’s employees and contractors present on the Premises.
-        </p>
-    </div>
-
-    <div class="contract-section">
-        <span class="contract-section-number">29.</span>
-        <span class="contract-section-title">Delays:</span>
-        <p class="contract-section-body">
-            All time periods for Seller’s delivery or completion of the Work shall be extended by the number of days
-            affected by a Force Majeure Event or a Third‑Party Delay.
-        </p>
-    </div>
-
-    <div class="contract-section">
-        <span class="contract-section-number">30.</span>
-        <span class="contract-section-title">Security:</span>
-        <p class="contract-section-body">
-            Purchaser shall ensure that the Premises is secure and safe for the Work. Purchaser shall indemnify and
-            hold Seller harmless from any theft or damage to Seller’s Goods, equipment, or parts resulting from
-            Purchaser’s failure to provide commercially reasonable security measures such as adequate doors, gates,
-            locks, and lighting.
-        </p>
-    </div>
-
-    <div class="contract-section">
-        <span class="contract-section-number">31.</span>
-        <span class="contract-section-title">Safety:</span>
-        <p class="contract-section-body">
-            Purchaser shall ensure that the Premises complies with all laws and regulations relating to the safety
-            of construction or work sites.
-        </p>
-    </div>
-
-    <div class="signature-block">
-        <p class="contract-section-title">Accepted and Agreed:</p>
-        <p class="signature-line">By: ___________________________</p>
-        @* <p>By: <textarea asp-for="ClientBy" class="signature-line"></textarea></p>
-
-        <p>Name: <textarea asp-for="Name" class="signature-line"></textarea></p>
-        <p>Title: <textarea asp-for="Title" class="signature-line"></textarea></p> *@
-        <p>By: <textarea class="signature-line"></textarea></p>
-        <p>Name: <textarea class="signature-line"></textarea></p>
-        <p>Title: <textarea class="signature-line"></textarea></p>
-        @* <p class="signature-line">By: ___________________________</p>
-        <p class="signature-line">Name: _________________________</p>
-        <p class="signature-line">Title: __________________________</p>
-        <p class="signature-line">Title: __________________________</p> *@
-    </div>
-</div>
 </div>
     <div class="text-center" style="padding:20px;">
         <button id="printAll" class="btn btn-info">Print All Pages</button>
     </div>
-
-
-</div>
 
 <a href="/Home/NextPage/8" class="back-arrow">&#10140;</a>
